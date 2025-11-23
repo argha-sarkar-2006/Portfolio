@@ -339,6 +339,17 @@
             position: relative;
             left:50px;
         }
+        .timeline-content3{
+            background: rgba(45, 52, 54, 0.7);
+            backdrop-filter: blur(10px);
+            padding: 1.5rem;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(204, 141, 141, 0.2);
+            transition: all 0.3s ease;
+            border: 1px solid rgba(108, 92, 231, 0.3);
+            position: relative;
+            left:-50px;
+        }
 
         .timeline-item:hover .timeline-content {
             transform: translateY(-5px);
@@ -550,7 +561,7 @@
         <!-- Profile Section -->
         <section class="profile">
             <div class="profile-image">
-                <img src="/pfp1.jpg" alt="Developer Photo">
+                <img src="/pfp_01.jpg" alt="Developer Photo">
             </div>
             <div class="profile-info">
                 <h2>Hello, I'm Argha</h2>
@@ -559,7 +570,7 @@
                 <div class="social-links">
                     <a href="https://github.com/argha-sarkar-2006?tab=repositories" class="social-link"><i class="fab fa-github" target="_blank"></i></a>
                     <a href="www.linkedin.com/in/argha-sarkar-867555343" class="social-link"><i class="fab fa-linkedin-in"></i></a>
-                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    <a href="https://x.com/argha_0001" class="social-link"><i class="fab fa-twitter"></i></a>
                     <a href="#" class="social-link"><i class="fab fa-discord"></i></a>
                 </div>
             </div>
@@ -567,18 +578,25 @@
 
         <!-- Skills Section -->
         <section class="skills">
-            <h2>My Skills</h2>
+            <h2>Skill Languages</h2>
             <div class="skills-grid">
                 <div class="skill-card">
                     <div class="skill-icon"><i class="fab fa-python"></i></div>
                     <h3 class="skill-name">Python</h3>
                     <div class="skill-level">
-                        <div class="skill-progress" style="--progress: 75%"></div>
+                        <div class="skill-progress" style="--progress: 95%"></div>
                     </div>
                 </div>
                 <div class="skill-card">
-                    <div class="skill-icon"><i class="fas fa-database"></i></div>
-                    <h3 class="skill-name">SQL</h3>
+                    <div class="skill-icon"><i class="fa-solid fa-c"></i></div>
+                    <h3 class="skill-name">C Programming</h3>
+                    <div class="skill-level">
+                        <div class="skill-progress" style="--progress: 60%"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fa-brands fa-java"></i></div>
+                    <h3 class="skill-name">JAVA</h3>
                     <div class="skill-level">
                         <div class="skill-progress" style="--progress: 70%"></div>
                     </div>
@@ -598,13 +616,79 @@
                     </div>
                 </div>
                 <div class="skill-card">
-                    <div class="skill-icon"><i class="fab fa-slack"></i></div>
-                    <h3 class="skill-name">Ar kichu jani na </h3>
+                    <div class="skill-icon"><i class="fa-brands fa-js"></i></div>
+                    <h3 class="skill-name">Java Script</h3>
                     <div class="skill-level">
-                        <div class="skill-progress" style="--progress: 10%"></div>
+                        <div class="skill-progress" style="--progress: 30%"></div>
                     </div>
                 </div>
 
+            </div>
+        </section>
+        <section class="skills">
+            <h2>DataBase and Cloud</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fa-solid fa-flask"></i></div>
+                    <h3 class="skill-name">Flask</h3>
+                    <div class="skill-level">
+                        <div class="skill-progress" style="--progress: 75%"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fas fa-database"></i></div>
+                    <h3 class="skill-name">SQL</h3>
+                    <div class="skill-level">
+                        <div class="skill-progress" style="--progress: 70%"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fa-brands fa-google"></i></div>
+                    <h3 class="skill-name">Google CLoud</h3>
+                    <div class="skill-level">
+                        <div class="skill-progress" style="--progress: 78%"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fa-brands fa-docker"></i></div>
+                    <h3 class="skill-name">Docker</h3>
+                    <div class="skill-level">
+                        <div class="skill-progress" style="--progress: 50%"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="skills">
+            <h2>Tools and Platform</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fa-brands fa-git-alt"></i></div>
+                    <h3 class="skill-name">Git</h3>
+                    <div class="skill-level">
+                        <div class="skill-progress" style="--progress: 75%"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fa-brands fa-github"></i></div>
+                    <h3 class="skill-name">Git-Hub</h3>
+                    <div class="skill-level">
+                        <div class="skill-progress" style="--progress: 70%"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fa-brands fa-vuejs"></i></div>
+                    <h3 class="skill-name">VS Code</h3>
+                    <div class="skill-level">
+                        <div class="skill-progress" style="--progress: 78%"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fa-brands fa-figma"></i></div>
+                    <h3 class="skill-name">Figma</h3>
+                    <div class="skill-level">
+                        <div class="skill-progress" style="--progress: 50%"></div>
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -617,7 +701,7 @@
                     <div class="timeline-date">2020 - 2022</div>
                     <div class="timeline-content1">
                         <h3>Basic Fundamentals</h3>
-                        <p>In My Scool Life I started coding with some basics of HTML with th some </p>
+                        <p>In My Scool Life I started coding with some basics of HTML </p>
                     </div>
                 </div>
                 <div class="timeline-item">
@@ -625,7 +709,7 @@
                     <div class="timeline-date">2022 - 2024</div>
                     <div class="timeline-content2">
                         <h3>Pyhton Programming</h3>
-                        <p>In 2022 i started to learn about python Programming cause am interested data science and machine algorithm and for taht pyhton was the best way </p>
+                        <p>In 2022 i started to learn about python Programming cause am interested data science and machine algorithm and for that pyhton was the best way </p>
                     </div>
                 </div>
                 <div class="timeline-item">
@@ -633,13 +717,21 @@
                     <div class="timeline-date">2024 - 2025</div>
                     <div class="timeline-content1">
                         <h3>Web developer</h3>
-                        <p>In tis short time epriod i learn about HTML, JavaScript ,CSS, which mostly use for Web development .</p>
+                        <p>In tis short time period i learn about HTML, JavaScript ,CSS, which mostly use for Web development .</p>
                     </div>
                 </div>
                 <div class="timeline-item">
                     <div class="timeline-dot"></div>
-                    <div class="timeline-date">2021 - Present</div>
+                    <div class="timeline-date">2025 - Present</div>
                     <div class="timeline-content2">
+                        <h3>Entry In Tech depertment</h3>
+                        <p>Comming soon in college </p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2025 - Present</div>
+                    <div class="timeline-content3">
                         <h3>Entry In Tech depertment</h3>
                         <p>Comming soon in college </p>
                     </div>
